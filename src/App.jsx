@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Intro from './pages/Intro'
 
-
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <BrowserRouter>
     <Routes>{
-      <Route path='/' element={<Intro/>}/>
+      <Route path='*' element={<Intro/>}/>
     }
     </Routes>
     </BrowserRouter>

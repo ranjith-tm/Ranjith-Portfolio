@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g transform="rotate(-5 32 32)">
+    <!-- hard drop shadow (offset 2px right, 3px down, no blur) -->
+    <rect x="6" y="11" width="54" height="46" rx="7" fill="#000" opacity="0.45"/>
+    <!-- sticker body -->
+    <rect x="4" y="8"  width="54" height="46" rx="7" fill="#2ecc71"/>
+    <!-- top shine highlight -->
+    <rect x="4" y="8"  width="54" height="18" rx="7" fill="#fff" opacity="0.18"/>
+    <!-- italic R -->
+    <text
+      x="32" y="47"
+      font-family="Georgia, 'Palatino Linotype', serif"
+      font-size="44"
+      font-weight="bold"
+      font-style="italic"
+      fill="#000"
+      text-anchor="middle">R</text>
+  </g>
+</svg>
